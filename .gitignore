@@ -2,3 +2,5 @@
 **/*.tfstate
 **/*.info
 **/*.backup
+**/credentials.json
+**/*.tfvars
