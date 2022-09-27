@@ -1,6 +1,8 @@
 provider "google" {
-  region      = "us-east-1"
+  region      = "us-east1"
+  zone        = "us-east1-b"
   credentials = file("credentials.json")
+  project     = var.project
 }
 
 resource "google_compute_firewall" "allow-http-access" {

@@ -3,3 +3,4 @@
 **/*.info
 **/*.backup
 **/credentials.json
+**/*.tfvars
